@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Example corne nice_nano_v2 nice_view'
+name: 'Corne-Ice'
 on: workflow_dispatch
 jobs:
   build:
@@ -11,4 +11,4 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
       clipboard: '["mac"]'
-      kconfig: '["CONFIG_BT_CTLR_TX_PWR_PLUS_8=y","CONFIG_ZMK_KEYBOARD_NAME=Cho-Corne"]'
+      kconfig: '["CONFIG_BT_CTLR_TX_PWR_PLUS_8=y","CONFIG_ZMK_KEYBOARD_NAME=Corne-Ice"]'
